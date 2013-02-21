@@ -1,0 +1,39 @@
+cbgrepper
+	search for stuff and open it quickly in your favorite editor
+	
+ABOUT
+
+The purpose of this little script is to make it
+easier to find little tidbits of information
+faster than manually searching through files...
+... or even just using grep alone.
+
+Once you find the line/file you want, the script will open
+it up in the text editor of your choice.
+
+In the configuration section below, tell the script
+where you keep your notes.*
+
+		* since it searches recursively, you could set
+		it to / or ~ if you wanted to... but I wouldn't
+		
+WHAT IT DOES
+
+When you run the script, it will ask you what to search.
+I haven't figured out how to deal with spaces, so for now
+you can only search single words. Oh well..
+
+Then it will return all the results, numbered.
+To open the file the result comes from, type the number
+and hit enter.
+
+		
+WHY
+
+I do tech support over the phone, and each day I create a
+new text document for that day's notes. I take a ton of notes,
+and often I need to look up something from my notes but I
+don't know which file to look in.
+
+I wrote this script so with a few commands I can find what I'm
+looking for and view it/edit it in my favorite editor.
