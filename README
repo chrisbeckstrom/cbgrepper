@@ -1,6 +1,11 @@
 cbgrepper
 	search for stuff and open it quickly in your favorite editor
 	
+REQUIRES
+* Mac
+* Applescript
+* TextWrangler (optional- you can set the default editor in the script)
+
 ABOUT
 
 The purpose of this little script is to make it
@@ -11,7 +16,7 @@ faster than manually searching through files...
 Once you find the line/file you want, the script will open
 it up in the text editor of your choice.
 
-In the configuration section below, tell the script
+In the configuration section of the script, tell the script
 where you keep your notes.*
 
 		* since it searches recursively, you could set
@@ -26,8 +31,7 @@ you can only search single words. Oh well..
 Then it will return all the results, numbered.
 To open the file the result comes from, type the number
 and hit enter.
-
-		
+	
 WHY
 
 I do tech support over the phone, and each day I create a
